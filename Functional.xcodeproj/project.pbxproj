@@ -11,6 +11,9 @@
 		02D7D569225EFDF400148463 /* FunctionalTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02D7D568225EFDF400148463 /* FunctionalTests.swift */; };
 		02D7D56B225EFDF400148463 /* Functional.h in Headers */ = {isa = PBXBuildFile; fileRef = 02D7D55D225EFDF300148463 /* Functional.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		02D7D576225EFE5400148463 /* Composition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02D7D575225EFE5400148463 /* Composition.swift */; };
+		02D7D578225F013E00148463 /* SideEffects.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02D7D577225F013E00148463 /* SideEffects.swift */; };
+		02D7D57A2260616F00148463 /* Getters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02D7D5792260616F00148463 /* Getters.swift */; };
+		02D7D57C2260644400148463 /* Reduce.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02D7D57B2260644400148463 /* Reduce.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,6 +35,9 @@
 		02D7D56A225EFDF400148463 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		02D7D574225EFE4A00148463 /* FunctionalPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = FunctionalPlayground.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		02D7D575225EFE5400148463 /* Composition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Composition.swift; sourceTree = "<group>"; };
+		02D7D577225F013E00148463 /* SideEffects.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideEffects.swift; sourceTree = "<group>"; };
+		02D7D5792260616F00148463 /* Getters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Getters.swift; sourceTree = "<group>"; };
+		02D7D57B2260644400148463 /* Reduce.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reduce.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +84,9 @@
 				02D7D55D225EFDF300148463 /* Functional.h */,
 				02D7D55E225EFDF300148463 /* Info.plist */,
 				02D7D575225EFE5400148463 /* Composition.swift */,
+				02D7D577225F013E00148463 /* SideEffects.swift */,
+				02D7D5792260616F00148463 /* Getters.swift */,
+				02D7D57B2260644400148463 /* Reduce.swift */,
 			);
 			path = Functional;
 			sourceTree = "<group>";
@@ -201,6 +210,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				02D7D576225EFE5400148463 /* Composition.swift in Sources */,
+				02D7D578225F013E00148463 /* SideEffects.swift in Sources */,
+				02D7D57A2260616F00148463 /* Getters.swift in Sources */,
+				02D7D57C2260644400148463 /* Reduce.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
